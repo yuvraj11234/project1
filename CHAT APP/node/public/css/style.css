@@ -1,0 +1,62 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    max-width: 955px;
+    border: 2px solid black;
+    overflow-y:auto ;
+    margin: auto;
+    height: 60vh;
+    margin-bottom: 15px;
+}
+
+.message {
+    background-color: grey;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+.left {
+    float: left;
+    clear: both;
+
+
+}
+
+.right {
+    float: right;
+    clear: both;
+    /*taaki upper niche aayein */
+}
+#send-container{
+    display: block;
+    margin: auto;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+     width: 88%;
+     height: 34px;
+     margin-left:19px ;
+     border: 2px solid black;
+     border-radius: 5px;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 34px;
+    width: 71px;
+}
+body {
+    background-image: linear-gradient(rgb(241, 241, 245),rgb(82, 85, 249));
+    height: 100vh;
+}
